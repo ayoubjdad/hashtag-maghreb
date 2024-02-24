@@ -1,0 +1,40 @@
+.homeContainer {
+  background-color: #ebf1f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px;
+  padding: 0px 16px;
+  border-radius: 12px;
+}
+
+.logo {
+  width: 60px;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+}
+
+.menuItem {
+  cursor: pointer;
+  list-style-type: none;
+  color: #777e90;
+  transition: 0.5s;
+  &:hover {
+    color: #059e4b;
+  }
+}
+
+.popover {
+  background-color: #059e4b;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  inset: unset;
+  bottom: 5px;
+  right: 5px;
+  margin: 0;
+}
